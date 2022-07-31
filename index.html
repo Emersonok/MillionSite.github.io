@@ -4,13 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Million Site</title>
     
 </head>
-<body>
-    <h1>Hello World</h1>
-    
+<body class="center">
+    <header> <!--initial header- incomplete-->
+        <div>
+            <span>Million Languagues</span>
+        </div>
+    </header>
+    <section> <!--Still quite a lot to do here-->
+        <div class="container">
+            <img src="./assets/img/Dreams.jpeg" alt="" id="my-image">
+            <div class="left">
+            If your dream is to speak fluent English or French languages, you are at the right place. Scroll down to read informations on a special class designed to help you achieve your dreams.
+            </div>
+
+        </div>
+    </section>
+
+    <div>
+        <h1>
+            TEACHING METHODOLOGY
+        </h1>
+        <div class="images2">
+                <div class="container2">
+                    <img src="./assets/img/speaking.jpeg" alt="" id="speaking-img">
+                    <div class="caption">
+                        Conversation exercises in every class to boost your communication skills
+                    </div>
+                </div>
+                
+                <div class="container3">
+                    <img src="./assets/img/reading.jpeg" alt="" id="reading-img">
+                    <div class="caption2">
+                        Constant reading practices to improve your pronunciation
+                    </div>
+                </div>
+        </div>
+        <div class="images2">
+            <div class="container2"> <!--Used the same id and class for previous container-->
+                <img src="./assets/img/cambridge-audio.jpeg" alt="" id="speaking-img">
+                <div class="caption">
+                    Audio and Video sessions to aid your listening abilities
+                </div>
+            </div>
+            <div class="container3"> <!--Used the same id and class for previous container-->
+                <img src="./assets/img/SelfConfidence.jpeg" alt="" id="reading-img">
+                <div class="caption2">
+                    Specially developed method to increase your self confidence and take you to the next level
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div>
+        <p id="comments-intro">Please share your experiences in the comments below</p>
+        <div>
+            <input type="text" name="name" id="name" placeholder="Name"><br>
+            <input type="text" name="text" id="text" placeholder="Share your experiences">
+            <p><input type="submit" value="Send" onclick="load()"></p>
+            <p id="res">Read your comments here</p>
+        </div>
+    </div>
+    <div class="info">
+        <h2>Contact Us:</h2>
+        <i class="fa fa-whatsapp" id="tel"> 71981541631</i><br>
+        <span id="tel">EMERSON</span>
+        <p id="final-message"><strong> Schedule your first class with us and start your journey to becoming fluent in the fastest possible time</strong></p>
+
+    </div>
+
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
